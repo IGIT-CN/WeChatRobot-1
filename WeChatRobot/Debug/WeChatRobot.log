@@ -1,0 +1,83 @@
+﻿  WeChatRobot.cpp
+json_vc71_libmtd.lib(json_value.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(WeChatRobot.obj 中)
+json_vc71_libmtd.lib(json_reader.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(WeChatRobot.obj 中)
+json_vc71_libmtd.lib(json_reader.obj) : error LNK2005: "public: void __thiscall std::basic_ostream<char,struct std::char_traits<char> >::_Osfx(void)" (?_Osfx@?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEXXZ) 已经在 msvcprtd.lib(MSVCP140D.dll) 中定义
+json_vc71_libmtd.lib(json_reader.obj) : error LNK2005: "public: int __thiscall std::ios_base::flags(void)const " (?flags@ios_base@std@@QBEHXZ) 已经在 msvcprtd.lib(MSVCP140D.dll) 中定义
+json_vc71_libmtd.lib(json_reader.obj) : error LNK2005: "public: class std::basic_ostream<char,struct std::char_traits<char> > & __thiscall std::basic_ostream<char,struct std::char_traits<char> >::flush(void)" (?flush@?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV12@XZ) 已经在 msvcprtd.lib(MSVCP140D.dll) 中定义
+json_vc71_libmtd.lib(json_reader.obj) : error LNK2005: "public: bool __thiscall std::ios_base::good(void)const " (?good@ios_base@std@@QBE_NXZ) 已经在 msvcprtd.lib(MSVCP140D.dll) 中定义
+json_vc71_libmtd.lib(json_reader.obj) : error LNK2005: "public: class std::basic_streambuf<char,struct std::char_traits<char> > * __thiscall std::basic_ios<char,struct std::char_traits<char> >::rdbuf(void)const " (?rdbuf@?$basic_ios@DU?$char_traits@D@std@@@std@@QBEPAV?$basic_streambuf@DU?$char_traits@D@std@@@2@XZ) 已经在 msvcprtd.lib(MSVCP140D.dll) 中定义
+json_vc71_libmtd.lib(json_reader.obj) : error LNK2005: "public: void __thiscall std::basic_ios<char,struct std::char_traits<char> >::setstate(int,bool)" (?setstate@?$basic_ios@DU?$char_traits@D@std@@@std@@QAEXH_N@Z) 已经在 msvcprtd.lib(MSVCP140D.dll) 中定义
+json_vc71_libmtd.lib(json_reader.obj) : error LNK2005: "public: class std::basic_ostream<char,struct std::char_traits<char> > * __thiscall std::basic_ios<char,struct std::char_traits<char> >::tie(void)const " (?tie@?$basic_ios@DU?$char_traits@D@std@@@std@@QBEPAV?$basic_ostream@DU?$char_traits@D@std@@@2@XZ) 已经在 msvcprtd.lib(MSVCP140D.dll) 中定义
+json_vc71_libmtd.lib(json_writer.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(WeChatRobot.obj 中)
+json_vc71_libmtd.lib(json_writer.obj) : error LNK2005: "public: void __thiscall std::basic_ostream<char,struct std::char_traits<char> >::_Osfx(void)" (?_Osfx@?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEXXZ) 已经在 msvcprtd.lib(MSVCP140D.dll) 中定义
+json_vc71_libmtd.lib(json_writer.obj) : error LNK2005: "public: char __thiscall std::basic_ios<char,struct std::char_traits<char> >::fill(void)const " (?fill@?$basic_ios@DU?$char_traits@D@std@@@std@@QBEDXZ) 已经在 msvcprtd.lib(MSVCP140D.dll) 中定义
+json_vc71_libmtd.lib(json_writer.obj) : error LNK2005: "public: int __thiscall std::ios_base::flags(void)const " (?flags@ios_base@std@@QBEHXZ) 已经在 msvcprtd.lib(MSVCP140D.dll) 中定义
+json_vc71_libmtd.lib(json_writer.obj) : error LNK2005: "public: class std::basic_ostream<char,struct std::char_traits<char> > & __thiscall std::basic_ostream<char,struct std::char_traits<char> >::flush(void)" (?flush@?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV12@XZ) 已经在 msvcprtd.lib(MSVCP140D.dll) 中定义
+json_vc71_libmtd.lib(json_writer.obj) : error LNK2005: "public: bool __thiscall std::ios_base::good(void)const " (?good@ios_base@std@@QBE_NXZ) 已经在 msvcprtd.lib(MSVCP140D.dll) 中定义
+json_vc71_libmtd.lib(json_writer.obj) : error LNK2005: "public: class std::basic_streambuf<char,struct std::char_traits<char> > * __thiscall std::basic_ios<char,struct std::char_traits<char> >::rdbuf(void)const " (?rdbuf@?$basic_ios@DU?$char_traits@D@std@@@std@@QBEPAV?$basic_streambuf@DU?$char_traits@D@std@@@2@XZ) 已经在 msvcprtd.lib(MSVCP140D.dll) 中定义
+json_vc71_libmtd.lib(json_writer.obj) : error LNK2005: "public: void __thiscall std::basic_ios<char,struct std::char_traits<char> >::setstate(int,bool)" (?setstate@?$basic_ios@DU?$char_traits@D@std@@@std@@QAEXH_N@Z) 已经在 msvcprtd.lib(MSVCP140D.dll) 中定义
+json_vc71_libmtd.lib(json_writer.obj) : error LNK2005: "public: int __thiscall std::basic_streambuf<char,struct std::char_traits<char> >::sputc(char)" (?sputc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QAEHD@Z) 已经在 msvcprtd.lib(MSVCP140D.dll) 中定义
+json_vc71_libmtd.lib(json_writer.obj) : error LNK2005: "public: __int64 __thiscall std::basic_streambuf<char,struct std::char_traits<char> >::sputn(char const *,__int64)" (?sputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QAE_JPBD_J@Z) 已经在 msvcprtd.lib(MSVCP140D.dll) 中定义
+json_vc71_libmtd.lib(json_writer.obj) : error LNK2005: "public: class std::basic_ostream<char,struct std::char_traits<char> > * __thiscall std::basic_ios<char,struct std::char_traits<char> >::tie(void)const " (?tie@?$basic_ios@DU?$char_traits@D@std@@@std@@QBEPAV?$basic_ostream@DU?$char_traits@D@std@@@2@XZ) 已经在 msvcprtd.lib(MSVCP140D.dll) 中定义
+json_vc71_libmtd.lib(json_writer.obj) : error LNK2005: "public: char __thiscall std::basic_ios<char,struct std::char_traits<char> >::widen(char)const " (?widen@?$basic_ios@DU?$char_traits@D@std@@@std@@QBEDD@Z) 已经在 msvcprtd.lib(MSVCP140D.dll) 中定义
+json_vc71_libmtd.lib(json_writer.obj) : error LNK2005: "public: __int64 __thiscall std::ios_base::width(__int64)" (?width@ios_base@std@@QAE_J_J@Z) 已经在 msvcprtd.lib(MSVCP140D.dll) 中定义
+json_vc71_libmtd.lib(json_writer.obj) : error LNK2005: "public: __int64 __thiscall std::ios_base::width(void)const " (?width@ios_base@std@@QBE_JXZ) 已经在 msvcprtd.lib(MSVCP140D.dll) 中定义
+libcpmtd.lib(xthrow.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(WeChatRobot.obj 中)
+libcpmtd.lib(xthrow.obj) : error LNK2005: "void __cdecl std::_Xlength_error(char const *)" (?_Xlength_error@std@@YAXPBD@Z) 已经在 msvcprtd.lib(MSVCP140D.dll) 中定义
+libcpmtd.lib(xonce.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(WeChatRobot.obj 中)
+libcpmtd.lib(syserror.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(WeChatRobot.obj 中)
+libcpmtd.lib(locale0.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(WeChatRobot.obj 中)
+libcpmtd.lib(_tolower.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(WeChatRobot.obj 中)
+libcpmtd.lib(_toupper.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(WeChatRobot.obj 中)
+libcpmtd.lib(xwctomb.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(WeChatRobot.obj 中)
+libcpmtd.lib(ios.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(WeChatRobot.obj 中)
+libcpmtd.lib(iomanip.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(WeChatRobot.obj 中)
+libcpmtd.lib(iomanip.obj) : error LNK2005: "public: __int64 __thiscall std::ios_base::width(__int64)" (?width@ios_base@std@@QAE_J_J@Z) 已经在 msvcprtd.lib(MSVCP140D.dll) 中定义
+libcpmtd.lib(winapisupp.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(WeChatRobot.obj 中)
+libcpmtd.lib(locale.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(WeChatRobot.obj 中)
+libcpmtd.lib(locale.obj) : error LNK2005: "public: int __thiscall std::ios_base::flags(void)const " (?flags@ios_base@std@@QBEHXZ) 已经在 msvcprtd.lib(MSVCP140D.dll) 中定义
+libcpmtd.lib(locale.obj) : error LNK2005: "public: int __thiscall std::basic_streambuf<char,struct std::char_traits<char> >::sputc(char)" (?sputc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QAEHD@Z) 已经在 msvcprtd.lib(MSVCP140D.dll) 中定义
+libcpmtd.lib(locale.obj) : error LNK2005: "public: __int64 __thiscall std::ios_base::width(__int64)" (?width@ios_base@std@@QAE_J_J@Z) 已经在 msvcprtd.lib(MSVCP140D.dll) 中定义
+libcpmtd.lib(locale.obj) : error LNK2005: "public: __int64 __thiscall std::ios_base::width(void)const " (?width@ios_base@std@@QBE_JXZ) 已经在 msvcprtd.lib(MSVCP140D.dll) 中定义
+libcpmtd.lib(iosptrs.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(WeChatRobot.obj 中)
+libcpmtd.lib(StlLCMapStringA.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(WeChatRobot.obj 中)
+libcpmtd.lib(wlocale.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(WeChatRobot.obj 中)
+libcpmtd.lib(wlocale.obj) : error LNK2005: "public: int __thiscall std::ios_base::flags(void)const " (?flags@ios_base@std@@QBEHXZ) 已经在 msvcprtd.lib(MSVCP140D.dll) 中定义
+libcpmtd.lib(wlocale.obj) : error LNK2005: "public: __int64 __thiscall std::ios_base::width(__int64)" (?width@ios_base@std@@QAE_J_J@Z) 已经在 msvcprtd.lib(MSVCP140D.dll) 中定义
+libcpmtd.lib(wlocale.obj) : error LNK2005: "public: __int64 __thiscall std::ios_base::width(void)const " (?width@ios_base@std@@QBE_JXZ) 已经在 msvcprtd.lib(MSVCP140D.dll) 中定义
+libcpmtd.lib(xlocale.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(WeChatRobot.obj 中)
+libcpmtd.lib(xlocale.obj) : error LNK2005: "public: int __thiscall std::ios_base::flags(void)const " (?flags@ios_base@std@@QBEHXZ) 已经在 msvcprtd.lib(MSVCP140D.dll) 中定义
+libcpmtd.lib(xlocale.obj) : error LNK2005: "public: int __thiscall std::basic_streambuf<char,struct std::char_traits<char> >::sputc(char)" (?sputc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QAEHD@Z) 已经在 msvcprtd.lib(MSVCP140D.dll) 中定义
+libcpmtd.lib(xlocale.obj) : error LNK2005: "public: __int64 __thiscall std::ios_base::width(__int64)" (?width@ios_base@std@@QAE_J_J@Z) 已经在 msvcprtd.lib(MSVCP140D.dll) 中定义
+libcpmtd.lib(xlocale.obj) : error LNK2005: "public: __int64 __thiscall std::ios_base::width(void)const " (?width@ios_base@std@@QBE_JXZ) 已经在 msvcprtd.lib(MSVCP140D.dll) 中定义
+libcpmtd.lib(xstol.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(WeChatRobot.obj 中)
+libcpmtd.lib(xstoul.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(WeChatRobot.obj 中)
+libcpmtd.lib(xstoll.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(WeChatRobot.obj 中)
+libcpmtd.lib(xstoull.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(WeChatRobot.obj 中)
+libcpmtd.lib(xlock.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(WeChatRobot.obj 中)
+libcpmtd.lib(xlock.obj) : error LNK2005: "public: __thiscall std::_Lockit::_Lockit(int)" (??0_Lockit@std@@QAE@H@Z) 已经在 msvcprtd.lib(MSVCP140D.dll) 中定义
+libcpmtd.lib(xlock.obj) : error LNK2005: "public: __thiscall std::_Lockit::~_Lockit(void)" (??1_Lockit@std@@QAE@XZ) 已经在 msvcprtd.lib(MSVCP140D.dll) 中定义
+libcpmtd.lib(winapinls.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(WeChatRobot.obj 中)
+libcpmtd.lib(xstrcoll.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(WeChatRobot.obj 中)
+libcpmtd.lib(xdateord.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(WeChatRobot.obj 中)
+libcpmtd.lib(xmbtowc.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(WeChatRobot.obj 中)
+libcpmtd.lib(xwcscoll.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(WeChatRobot.obj 中)
+libcpmtd.lib(xwcsxfrm.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(WeChatRobot.obj 中)
+libcpmtd.lib(xgetwctype.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(WeChatRobot.obj 中)
+libcpmtd.lib(xtowlower.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(WeChatRobot.obj 中)
+libcpmtd.lib(xtowupper.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(WeChatRobot.obj 中)
+libcpmtd.lib(xstrxfrm.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(WeChatRobot.obj 中)
+libcpmtd.lib(xmtx.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(WeChatRobot.obj 中)
+libcpmtd.lib(StlCompareStringA.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(WeChatRobot.obj 中)
+libcpmtd.lib(StlCompareStringW.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(WeChatRobot.obj 中)
+libcpmtd.lib(StlLCMapStringW.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug”(WeChatRobot.obj 中)
+LINK : warning LNK4098: 默认库“LIBCMTD”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+WeChatRobot.obj : error LNK2019: 无法解析的外部符号 __imp__curl_global_init，该符号在函数 "int __cdecl CurlSet(char const *,char const *,char *)" (?CurlSet@@YAHPBD0PAD@Z) 中被引用
+WeChatRobot.obj : error LNK2019: 无法解析的外部符号 __imp__curl_global_cleanup，该符号在函数 "int __cdecl CurlSet(char const *,char const *,char *)" (?CurlSet@@YAHPBD0PAD@Z) 中被引用
+WeChatRobot.obj : error LNK2019: 无法解析的外部符号 __imp__curl_slist_append，该符号在函数 "int __cdecl CurlSet(char const *,char const *,char *)" (?CurlSet@@YAHPBD0PAD@Z) 中被引用
+WeChatRobot.obj : error LNK2019: 无法解析的外部符号 __imp__curl_easy_strerror，该符号在函数 "int __cdecl CurlSet(char const *,char const *,char *)" (?CurlSet@@YAHPBD0PAD@Z) 中被引用
+WeChatRobot.obj : error LNK2019: 无法解析的外部符号 __imp__curl_easy_init，该符号在函数 "int __cdecl CurlSet(char const *,char const *,char *)" (?CurlSet@@YAHPBD0PAD@Z) 中被引用
+WeChatRobot.obj : error LNK2019: 无法解析的外部符号 __imp__curl_easy_setopt，该符号在函数 "int __cdecl CurlSet(char const *,char const *,char *)" (?CurlSet@@YAHPBD0PAD@Z) 中被引用
+WeChatRobot.obj : error LNK2019: 无法解析的外部符号 __imp__curl_easy_perform，该符号在函数 "int __cdecl CurlSet(char const *,char const *,char *)" (?CurlSet@@YAHPBD0PAD@Z) 中被引用
+WeChatRobot.obj : error LNK2019: 无法解析的外部符号 __imp__curl_easy_cleanup，该符号在函数 "int __cdecl CurlSet(char const *,char const *,char *)" (?CurlSet@@YAHPBD0PAD@Z) 中被引用
+C:\Users\zhaoming\source\repos\WeChatRobot\Debug\WeChatRobot.exe : fatal error LNK1120: 8 个无法解析的外部命令
